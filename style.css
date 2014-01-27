@@ -294,3 +294,45 @@ body p {
 .wrapper img {
   width: 15em;
 }
+@media all and (max-width: 50em) {
+  pre[class*="language-"] {
+    width: 100%;
+  }
+
+  pre, code {
+    padding: 1em .4em;
+    margin: 0;
+    width: 100%;
+  }
+
+  body {
+    font-size: .85em;
+  }
+
+  html, body, .pure-g-r, .pure-g-r .pure-u-1-1 {
+    width: 100%;
+  }
+
+  .pure-g-r [class*="pure-u"] {
+    float: left;
+    display: block;
+  }
+
+  .pure-g-r {
+    padding: 1em;
+  }
+  .pure-g-r .pure-u-1-2 {
+    padding: .5em;
+    width: 100%;
+  }
+  .pure-g-r .pure-u-1-3 {
+    width: 100%;
+    *width: 100%;
+  }
+  .pure-g-r .pure-u-1-3 canvas, .pure-g-r .pure-u-1-3 img {
+    width: 100%;
+    margin: auto;
+    padding: 3em;
+  }
+}
+

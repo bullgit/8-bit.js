@@ -36,7 +36,9 @@ html[xmlns] .clearfix {
 * html .clearfix {
   height: 1%;
 }
-
+.contain{
+  padding:0 4em;
+}
 .pure-g-r [class*="pure-u"] {
   float: left;
   display: block;
